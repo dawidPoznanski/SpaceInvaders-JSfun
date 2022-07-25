@@ -1,0 +1,52 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(90deg, #7a32f5 0%, #06fbe6 100%);
+}
+
+h1 {
+  font-family: 'Press Start 2P';
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  color: #fff;
+  text-shadow: 0 0 6px #000;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px;
+  width: 300px;
+  height: 300px;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.shooter {
+  background-color: blue;
+}
+
+.invader {
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.boom {
+  background-color: red;
+}
+
+.laser {
+  background-color: orange;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O0VBR0Usc0JBQXNCO0VBQ3RCLFVBQVU7RUFDVixTQUFTO0FDQ1g7O0FERUE7RUFDRSxrRUFJQztBQ0hIOztBREtBO0VBQ0UsNkJBQTZCO0VBQzdCLGVBQWU7RUFDZixhQUFhO0VBQ2IsdUJBQXVCO0VBQ3ZCLFlBQVk7RUFDWixXQUFXO0VBQ1gseUJBQXlCO0FDRjNCOztBREtBO0VBQ0UsYUFBYTtFQUNiLGVBQWU7RUFDZixpQkFBaUI7RUFDakIsWUFBWTtFQUNaLGFBQWE7QUNGZjs7QURLQTtFQUNFLFdBQVc7RUFDWCxZQUFZO0FDRmQ7O0FESUE7RUFDRSxzQkFBc0I7QUNEeEI7O0FER0E7RUFDRSx3QkFBd0I7RUFDeEIsbUJBQW1CO0FDQXJCOztBREVBO0VBQ0UscUJBQXFCO0FDQ3ZCOztBRENBO0VBQ0Usd0JBQXdCO0FDRTFCIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
