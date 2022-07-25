@@ -128,3 +128,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.addEventListener('keyup', shoot);
 });
+
+for (let i = 0; i <= 225; i++) {
+  //creates div element
+  const divElement = document.createElement('div');
+  //Appending the div element to grid
+  document.getElementsByClassName('grid')[0].appendChild(divElement);
+}
